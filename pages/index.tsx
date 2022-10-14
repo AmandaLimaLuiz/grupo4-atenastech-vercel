@@ -60,12 +60,12 @@ const Home: NextPage = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>          
-              <List><Link href={gitHub[0]} ><a target="_blank" href={gitHub[0]}>Amanda Lima</a></Link></List>
-              <List><Link href={gitHub[1]} ><a target="_blank" href={gitHub[1]}>Beatriz</a></Link></List>
-              <List><Link href={gitHub[2]} ><a target="_blank" href={gitHub[2]}>Camila</a></Link></List>
-              <List><Link href={gitHub[3]}><a target="_blank" href={gitHub[3]}>Daphyne</a></Link></List>
-              <List><Link href={gitHub[4]}><a target="_blank" href={gitHub[4]}>Nathássia</a></Link></List>
-              <List><Link href={gitHub[5]}><a target="_blank" href={gitHub[5]}>Rebeca</a></Link></List>            
+              <List><Link href={gitHub[0]} ><a target="_blank" rel="noopener noreferrer" href={gitHub[0]}>Amanda Lima</a></Link></List>
+              <List><Link href={gitHub[1]} ><a target="_blank" rel="noopener noreferrer" href={gitHub[1]}>Beatriz</a></Link></List>
+              <List><Link href={gitHub[2]} ><a target="_blank" rel="noopener noreferrer" href={gitHub[2]}>Camila</a></Link></List>
+              <List><Link href={gitHub[3]}><a target="_blank" rel="noopener noreferrer" href={gitHub[3]}>Daphyne</a></Link></List>
+              <List><Link href={gitHub[4]}><a target="_blank" rel="noopener noreferrer" href={gitHub[4]}>Nathássia</a></Link></List>
+              <List><Link href={gitHub[5]}><a target="_blank" rel="noopener noreferrer" href={gitHub[5]}>Rebeca</a></Link></List>            
           </Typography>
         </AccordionDetails>
       </Accordion>           
